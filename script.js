@@ -31,6 +31,17 @@ hour7El.textContent = dayJs().hour(3).format('hh A');
 hour8El.textContent = dayJs().hour(4).format('hh A');
 hour9El.textContent = dayJs().hour(5).format('hh A');
 
+//make a save buttons
+var saveBtn1El = document.getElementById('saveBtn1');
+var saveBtn2El = document.getElementById('saveBtn2');
+var saveBtn3El = document.getElementById('saveBtn3');
+var saveBtn4El = document.getElementById('saveBtn4');
+var saveBtn5El = document.getElementById('saveBtn5');
+var saveBtn6El = document.getElementById('saveBtn6');
+var saveBtn7El = document.getElementById('saveBtn7');
+var saveBtn8El = document.getElementById('saveBtn8');
+var saveBtn9El = document.getElementById('saveBtn9');
+
 
 if (hour < currentHour) {
     timeBlock.addClass("past");
