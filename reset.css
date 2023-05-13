@@ -1,16 +1,32 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.inputClass {
+    width: 500px;
+    height: 75px;
 }
 
-h1 {
+time {
+    width: 100px;
+    height: 70px;
+    border: dashed;
+    border-color: rgba(128, 128, 128, 0.486);
+    position: absolute;
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheduleTable {
+    display: flex;
+    flex-direction: column;
+}
+
+row {
+    display: inline-flex;
+    align-items: center;
     text-align: center;
 }
-h2 {
-    text-align: center;
-}
-p {
-    text-align: center;
+
+.btn {
+    height: 80px;
+    width: 80px;
 }
