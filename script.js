@@ -1,7 +1,7 @@
-
 //Current time
 var currentDayEl = document.getElementById('currentDay');
 currentDayEl.textContent = dayjs().format('dddd, MMMM DD');
+
 // Setting up local storage to text
 var fieldOneElText = localStorage.getItem('firstHour');
 var fieldTwoElText = localStorage.getItem('secondHour');
@@ -22,15 +22,16 @@ var time6El = document.getElementById('time6')
 var time7El = document.getElementById('time7')
 var time8El = document.getElementById('time8')
 var time9El = document.getElementById('time9')
-time1El = dayjs().hour(9).format('hh A')
-time2El = dayjs().hour(10).format('hh A')
-time3El = dayjs().hour(11).format('hh A')
-time4El = dayjs().hour(12).format('hh A')
-time5El = dayjs().hour(13).format('hh A')
-time6El = dayjs().hour(14).format('hh A')
-time7El = dayjs().hour(15).format('hh A')
-time8El = dayjs().hour(16).format('hh A')
-time9El = dayjs().hour(17).format('hh A')
+
+time1El.textContent = dayjs().format('hh A')
+time2El.textContent = dayjs().format('hh A')
+time3El.textContent = dayjs().format('hh A')
+time4El.textContent = dayjs().format('hh A')
+time5El.textContent = dayjs().format('hh A')
+time6El.textContent = dayjs().format('hh A')
+time7El.textContent = dayjs().format('hh A')
+time8El.textContent = dayjs().format('hh A')
+time9El.textContent = dayjs().format('hh A')
 // get save buttons
 var saveBtn1El = document.getElementById('saveBtn1');
 var saveBtn2El = document.getElementById('saveBtn2');
