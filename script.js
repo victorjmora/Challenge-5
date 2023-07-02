@@ -3,15 +3,15 @@ var currentDayEl = document.getElementById('currentDay');
 currentDayEl.textContent = dayjs().format('dddd, MMMM DD');
 
 // Setting up local storage to text
-var fieldOneElText = localStorage.getItem('firstHour');
-var fieldTwoElText = localStorage.getItem('secondHour');
-var fieldThreeElText = localStorage.getItem('thirdHour');
-var fieldFourElText = localStorage.getItem('fourthHour');
-var fieldFiveElText = localStorage.getItem('fifthHour');
-var fieldSixElText = localStorage.getItem('sixthHour');
-var fieldSevenElText = localStorage.getItem('seventhHour');
-var fieldEightElText = localStorage.getItem('eighthHour');
-var fieldNineElText = localStorage.getItem('ninthHour');
+var field1ElText = localStorage.getItem('firstHour');
+var field2ElText = localStorage.getItem('secondHour');
+var field3ElText = localStorage.getItem('thirdHour');
+var field4ElText = localStorage.getItem('fourthHour');
+var field5ElText = localStorage.getItem('fifthHour');
+var field6ElText = localStorage.getItem('sixthHour');
+var field7ElText = localStorage.getItem('seventhHour');
+var field8ElText = localStorage.getItem('eighthHour');
+var field9ElText = localStorage.getItem('ninthHour');
 // Text content of the time.
 var time1El = document.getElementById('time1')
 var time2El = document.getElementById('time2')
